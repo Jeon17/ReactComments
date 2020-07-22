@@ -1,5 +1,5 @@
 import axios from "axios";
-
+// creating axios calls with get method to get, delete, and save chosen book
 export default {
   // Gets books from the Google API
   getBooks: function(q) {

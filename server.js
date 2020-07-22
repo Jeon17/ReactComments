@@ -1,3 +1,4 @@
+// State variables needed to serve application
 const express = require("express");
 
 const mongoose = require("mongoose");

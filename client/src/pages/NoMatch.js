@@ -2,6 +2,13 @@ import React from "react";
 import { Col, Row, Container } from "../components/Grid";
 import Jumbotron from "../components/Jumbotron";
 
+// The NoMatch component is meant to reveal a 404 error with
+// the page rendering a message that states "Page Not Found"
+// The function is constructed with the components such as Container, 
+// row, column and Jumbotron so it is necessary to import the Grid and Jumbotron from
+//  the corresponding files within the app folder structure.
+
+
 function NoMatch() {
   return (
     <Container fluid>

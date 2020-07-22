@@ -2,6 +2,11 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
+// This file is created to construct the order of the Nav 
+// component which is used for the over arching application and renders on 
+// the user interface for the user's purpose
+
+
 class Nav extends Component {
   state = {
     open: false,

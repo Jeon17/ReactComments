@@ -1,4 +1,6 @@
 import React from "react";
+// Footer component written as a function to be used 
+// within the application where creator sees fit.
 
 function Footer() {
   return (

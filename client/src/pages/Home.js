@@ -8,6 +8,11 @@ import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List } from "../components/List";
 
+// This file imports the components necessary to yield the code that 
+// the application needs to utilize for complete functionality.
+// This Home.js file stores the code that users will see and
+// interact with when using methods to retrieve data. 
+
 class Home extends Component {
   state = {
     books: [],

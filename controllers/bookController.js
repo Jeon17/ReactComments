@@ -1,4 +1,7 @@
 const db = require("../models");
+// Setting up a controller to assure that the methods are 
+// appropriately utilized to retrieve the data
+
 
 // Defining methods for the bookController
 module.exports = {

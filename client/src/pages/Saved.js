@@ -7,6 +7,10 @@ import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List } from "../components/List";
 
+// This file uses stateful components to render the Save functionality
+// of the application and it offers a way for the api and data to be 
+// connected in React format
+
 class Saved extends Component {
   state = {
     books: []

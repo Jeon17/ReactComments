@@ -1,5 +1,8 @@
 import React from "react";
 
+// Form component which is utilizing three parameters to
+// state a value, and onChange and onClick events
+
 function Form({ q, handleInputChange, handleFormSubmit }) {
   return (
     <form>

@@ -1,3 +1,4 @@
+// Creating a method to return Google Api data
 const router = require("express").Router();
 const googleController = require("../../controllers/googleController");
 

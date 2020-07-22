@@ -3,6 +3,9 @@ import { ListItem } from "../List";
 import { Row, Col } from "../Grid";
 import "./style.css";
 
+// Book component setting up the format in function written in jsx
+
+
 function Book({ title, subtitle, authors, link, description, image, Button }) {
   return (
     <ListItem>
